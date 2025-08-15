@@ -1,0 +1,15 @@
+# SageMaker specific requirements
+sagemaker>=2.100.0
+boto3>=1.20.0
+botocore>=1.23.0
+
+# Core ML dependencies
+torch>=1.12.0
+torchvision>=0.13.0
+numpy>=1.21.0
+tifffile>=2021.7.2
+Pillow>=8.0.0
+
+# Additional utilities
+psutil>=5.8.0
+GPUtil>=1.4.0
